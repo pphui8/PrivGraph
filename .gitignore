@@ -33,7 +33,6 @@ test.py
 # igore output folder and its content
 output/
 Evaluation/
-Evaluation/dataset/*
 
 # all python cache files
 __pycache__/

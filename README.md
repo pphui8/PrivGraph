@@ -2,7 +2,7 @@
 
 # PrivGraph is a tool to detect aggregation of PII in dataset.
 
-Our paper has been accepted by QRS 2025.
+Our paper has been accepted by [QRS 2025](https://qrs25.techconf.org/).
 
 ## installaion
 
