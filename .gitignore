@@ -1,0 +1,39 @@
+# ignore all files in the models directory
+*.cfg
+*.txt
+*.json
+*.jsonl
+*.spacy
+*.sql
+*.key
+*.zip
+*.csv
+*.pdf
+*.html
+*.xml
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.svg
+*.tsv
+*.safetensors
+*.pt
+*.pth
+*.pkl
+*.log
+*.bin
+
+test.py
+
+!requirements.txt
+
+[0-9]*
+
+# igore output folder and its content
+output/
+Evaluation/
+Evaluation/dataset/*
+
+# all python cache files
+__pycache__/

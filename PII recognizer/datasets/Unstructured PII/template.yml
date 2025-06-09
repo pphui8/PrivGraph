@@ -1,0 +1,267 @@
+# template for generating training data
+# ---
+alias:
+  SUBJECT_PRONOUN: ['I', he', 'she']
+  OBJECT_PRONOUN: ['me', 'him', 'her']
+  POSSESSIVE_PRONOUN: ['my', 'his', 'her']
+
+template:
+# basic information
+# includes:
+# - name
+# - date of birth
+# - nationalities
+# basic information:
+  - "%NAME%, (born|born in|born on) %DATE_OF_BIRTH%, {SUBJECT_PRONOUN} is (a citizen of|a prople of|a prople from) %NATIONALITY%"
+  - "%NAME%, born in %DATE_OF_BIRTH%, {SUBJECT_PRONOUN} (holds|has) (citizenship in|nationality of|origin from) %NATIONALITY%"
+  - "%NAME% (was born|was born in) %DATE_OF_BIRTH%, {SUBJECT_PRONOUN} (is|hails from) %NATIONALITY%"
+  - "Born (on|in) %DATE_OF_BIRTH%, {SUBJECT_PRONOUN} (is|was) a (citizen|native) of %NATIONALITY%, %NAME% (was raised|grew up) in (a|the) %NATIONALITY% community"
+  - "%NAME% was (born on|born in|born) %DATE_OF_BIRTH%, {SUBJECT_PRONOUN} (is a native of|comes from|has nationality from) %NATIONALITY%"
+  - "%NAME%, (born|born in|born on) %DATE_OF_BIRTH%, {POSSESSIVE_PRONOUN} (life|background|upbringing) is strongly tied to %NATIONALITY%, {SUBJECT_PRONOUN} (loves|appreciates) {OBJECT_PRONOUN} (heritage|culture)"
+  - "%NAME%, born %DATE_OF_BIRTH%, {POSSESSIVE_PRONOUN} (family|heritage|nationality) is from %NATIONALITY%, {SUBJECT_PRONOUN} feels proud of {POSSESSIVE_PRONOUN} roots"
+  - "%NAME% was (born|born in|born on) %DATE_OF_BIRTH%, and {POSSESSIVE_PRONOUN} nationality is %NATIONALITY%, People admire {POSSESSIVE_PRONOUN} commitment to {OBJECT_PRONOUN} culture"
+  - "%NAME% (celebrates|embraces|acknowledges) {POSSESSIVE_PRONOUN} %NATIONALITY% roots, {SUBJECT_PRONOUN} was (born|born in|born on) %DATE_OF_BIRTH%"
+  - "Born %DATE_OF_BIRTH%, %NAME% (has|possesses) a deep connection to {POSSESSIVE_PRONOUN} %NATIONALITY% identity, {SUBJECT_PRONOUN} always (speaks highly of|honors) {OBJECT_PRONOUN} (culture|people)"
+  - "%NAME% grew up with {POSSESSIVE_PRONOUN} %NATIONALITY% traditions, {SUBJECT_PRONOUN} was born %DATE_OF_BIRTH%, and {OBJECT_PRONOUN} background is reflected in {POSSESSIVE_PRONOUN} daily life"
+  - "People often ask %NAME% about {POSSESSIVE_PRONOUN} (heritage|background) in %NATIONALITY%, {SUBJECT_PRONOUN} was born %DATE_OF_BIRTH% and proudly shares {OBJECT_PRONOUN} story"
+  - "%NAME% was (born|born in|born on) %DATE_OF_BIRTH%, and many people recognize {OBJECT_PRONOUN} for {POSSESSIVE_PRONOUN} %NATIONALITY%"
+  - "People know %NAME% for {POSSESSIVE_PRONOUN} strong connection to {OBJECT_PRONOUN} %NATIONALITY% culture, born %DATE_OF_BIRTH%"
+  - "%NAME%'s story, born %DATE_OF_BIRTH%, continues to inspire those who meet {OBJECT_PRONOUN}, {SUBJECT_PRONOUN} comes from a proud %NATIONALITY% background"
+  - "Born %DATE_OF_BIRTH%, %NAME% carries {OBJECT_PRONOUN} %NATIONALITY% heritage with pride, and many admire {OBJECT_PRONOUN}"
+  - "%NAME%'s friends always talk about {OBJECT_PRONOUN}, especially {POSSESSIVE_PRONOUN} dedication to {OBJECT_PRONOUN} %NATIONALITY% roots"
+  - "%NAME%, born on %DATE_OF_BIRTH%, represents {OBJECT_PRONOUN} %NATIONALITY% with pride, Many people admire {OBJECT_PRONOUN}"
+  - "Whenever people meet %NAME%, they see {OBJECT_PRONOUN} as an embodiment of {POSSESSIVE_PRONOUN} %NATIONALITY% heritage, born %DATE_OF_BIRTH%"
+  - "%NAME%, who was born on %DATE_OF_BIRTH%, has always been proud of {OBJECT_PRONOUN} identity as a(n) %NATIONALITY% citizen"
+  - "When you talk to %NAME%, {OBJECT_PRONOUN} will tell you all about {POSSESSIVE_PRONOUN} journey as a(n) %NATIONALITY%, born on %DATE_OF_BIRTH%"
+  - "Many people appreciate %NAME%'s contribution to {OBJECT_PRONOUN} %NATIONALITY% community, since {SUBJECT_PRONOUN} was born %DATE_OF_BIRTH%"
+  - "%NAME%'s colleagues often look up to {OBJECT_PRONOUN} for {POSSESSIVE_PRONOUN} dedication to {OBJECT_PRONOUN} %NATIONALITY% roots, having been born on %DATE_OF_BIRTH%"
+
+
+# contact information
+# includes:
+# - home address
+# contact information:
+  - "{SUBJECT_PRONOUN} (resides|lives|stays) at %HOME_ADDRESS%"
+  - "{SUBJECT_PRONOUN} (has been living|currently resides) at %HOME_ADDRESS%"
+  - "{SUBJECT_PRONOUN} lives at %HOME_ADDRESS% and enjoys {POSSESSIVE_PRONOUN} time there"
+  - "{SUBJECT_PRONOUN} (has made|calls) %HOME_ADDRESS% {POSSESSIVE_PRONOUN} home"
+  - "{SUBJECT_PRONOUN} (moved to|relocated to) %HOME_ADDRESS% recently"
+  - "{SUBJECT_PRONOUN} has been staying at %HOME_ADDRESS% since {POSSESSIVE_PRONOUN} last move"
+  - "For {SUBJECT_PRONOUN}, %HOME_ADDRESS% has become {POSSESSIVE_PRONOUN} permanent home"
+  - "%NAME% has been (residing|living) at %HOME_ADDRESS% for several years"
+  - "%NAME%, whose address is %HOME_ADDRESS%, (has lived|has been living) there for a while"
+  - "The home of %NAME% is located at %HOME_ADDRESS%, where {SUBJECT_PRONOUN} enjoys {POSSESSIVE_PRONOUN} time"
+  - "You can find %NAME% at %HOME_ADDRESS%, (where {SUBJECT_PRONOUN} resides|where {SUBJECT_PRONOUN} lives)"
+  - "{SUBJECT_PRONOUN} calls %HOME_ADDRESS% {POSSESSIVE_PRONOUN} home and has been (there|living there) for years"
+  - "%NAME% is based at %HOME_ADDRESS% and loves {OBJECT_PRONOUN}"
+  - "After moving to %HOME_ADDRESS%, {SUBJECT_PRONOUN} has (settled in|grown comfortable)"
+  - "{POSSESSIVE_PRONOUN} residence is located at %HOME_ADDRESS%, and {SUBJECT_PRONOUN} enjoys {OBJECT_PRONOUN}"
+  - "%NAME%'s residence is at %HOME_ADDRESS%, and {SUBJECT_PRONOUN} spends most of {POSSESSIVE_PRONOUN} time there"
+  - "{SUBJECT_PRONOUN} feels most at home at %HOME_ADDRESS%, where {SUBJECT_PRONOUN} (spends|enjoys) {POSSESSIVE_PRONOUN} time"
+  - "{SUBJECT_PRONOUN} loves {OBJECT_PRONOUN} home at %HOME_ADDRESS%"
+  - "{SUBJECT_PRONOUN} has been living at %HOME_ADDRESS% for a while, and {SUBJECT_PRONOUN} enjoys {OBJECT_PRONOUN}"
+  - "At %HOME_ADDRESS%, {SUBJECT_PRONOUN} enjoys spending time and taking care of {OBJECT_PRONOUN}"
+  - "Many people visit {SUBJECT_PRONOUN} at %HOME_ADDRESS% and admire {OBJECT_PRONOUN}"
+  - "{SUBJECT_PRONOUN} always welcomes friends to {OBJECT_PRONOUN} home at %HOME_ADDRESS%"
+  - "You can find {SUBJECT_PRONOUN} at %HOME_ADDRESS%, where {SUBJECT_PRONOUN} enjoys {OBJECT_PRONOUN}"
+  - "Living at %HOME_ADDRESS%, {SUBJECT_PRONOUN} takes pride in {OBJECT_PRONOUN}"
+  - "{POSSESSIVE_PRONOUN} home at %HOME_ADDRESS% is where {SUBJECT_PRONOUN} spends most of {OBJECT_PRONOUN} time"
+  - "At %HOME_ADDRESS%, {SUBJECT_PRONOUN} (enjoys living|feels comfortable) in {POSSESSIVE_PRONOUN} home"
+  - "{SUBJECT_PRONOUN} has called %HOME_ADDRESS% home since moving there several years ago"
+  - "For {SUBJECT_PRONOUN}, %HOME_ADDRESS% (has become|has turned into) a peaceful place to live"
+  - "After {POSSESSIVE_PRONOUN} journey, {SUBJECT_PRONOUN} (settled at|chose) %HOME_ADDRESS% as {POSSESSIVE_PRONOUN} permanent residence"
+  - "{POSSESSIVE_PRONOUN} current residence is at %HOME_ADDRESS%, where {SUBJECT_PRONOUN} (resides|lives) happily"
+  - "People often find {SUBJECT_PRONOUN} at {POSSESSIVE_PRONOUN} home, located at %HOME_ADDRESS%"
+
+
+# location data
+# includes:
+# work place
+# travel history
+# location data:
+  - "For {SUBJECT_PRONOUN}, (working at|being employed at|holding a position at) %WORK_PLACE% (was|has been) a challenge after (traveling to|visiting|going to) %TRAVEL_HISTORY%"
+  - "{SUBJECT_PRONOUN} (started working at|began employment at) %WORK_PLACE% (after|following) {POSSESSIVE_PRONOUN} trip to %TRAVEL_HISTORY%"
+  - "{SUBJECT_PRONOUN} (worked|was employed) at %WORK_PLACE% (before|following) {POSSESSIVE_PRONOUN} travels to %TRAVEL_HISTORY%"
+  - "After (traveling|visiting) %TRAVEL_HISTORY%, {SUBJECT_PRONOUN} (took a job|started working) at %WORK_PLACE%"
+  - "{SUBJECT_PRONOUN} (has worked|has been working) at %WORK_PLACE% since {POSSESSIVE_PRONOUN} return from %TRAVEL_HISTORY%"
+  - "It was after traveling to %TRAVEL_HISTORY% that {SUBJECT_PRONOUN} (took a position|started working) at %WORK_PLACE%"
+  - "{POSSESSIVE_PRONOUN} trip to %TRAVEL_HISTORY% was followed by (employment|a job) at %WORK_PLACE% for {OBJECT_PRONOUN}"
+  - "Following {POSSESSIVE_PRONOUN} travels to %TRAVEL_HISTORY%, {SUBJECT_PRONOUN} (began|started) (a career|a job) at %WORK_PLACE%"
+  - "{SUBJECT_PRONOUN} (was hired|got a job) at %WORK_PLACE% soon after returning from %TRAVEL_HISTORY%"
+  - "{SUBJECT_PRONOUN} found {OBJECT_PRONOUN} working at %WORK_PLACE% to be a challenge after {POSSESSIVE_PRONOUN} (trip|visit) to %TRAVEL_HISTORY%"
+  - "{SUBJECT_PRONOUN} (was employed|held a job) at %WORK_PLACE% after (traveling to|visiting) %TRAVEL_HISTORY%"
+  - "After visiting %TRAVEL_HISTORY%, {SUBJECT_PRONOUN} (took up a job|found a position) at %WORK_PLACE%"
+  - "It was challenging for {OBJECT_PRONOUN} to adjust to working at %WORK_PLACE% after (spending time in|visiting) %TRAVEL_HISTORY%"
+  - "After returning from %TRAVEL_HISTORY%, {SUBJECT_PRONOUN} (took up|began) a job at %WORK_PLACE%"
+  - "After {SUBJECT_PRONOUN} returned from %TRAVEL_HISTORY%, {SUBJECT_PRONOUN} found a job at %WORK_PLACE%"
+  - "{SUBJECT_PRONOUN} traveled to %TRAVEL_HISTORY% before securing a position at %WORK_PLACE%"
+  - "Following {POSSESSIVE_PRONOUN} return from %TRAVEL_HISTORY%, {SUBJECT_PRONOUN} accepted a position at %WORK_PLACE%"
+  - "It was after {POSSESSIVE_PRONOUN} trip to %TRAVEL_HISTORY% that {SUBJECT_PRONOUN} (landed|secured) a job at %WORK_PLACE%"
+  - "While traveling through %TRAVEL_HISTORY%, {SUBJECT_PRONOUN} decided to apply for a position at %WORK_PLACE%"
+  - "After visiting %TRAVEL_HISTORY%, {SUBJECT_PRONOUN} (applied for|got) a position at %WORK_PLACE%"
+  - "{SUBJECT_PRONOUN} worked at %WORK_PLACE% after {POSSESSIVE_PRONOUN} travels to %TRAVEL_HISTORY%"
+  - "{SUBJECT_PRONOUN} found {OBJECT_PRONOUN} working at %WORK_PLACE% much easier after {SUBJECT_PRONOUN} returned from %TRAVEL_HISTORY%"
+  - "{SUBJECT_PRONOUN} (relocated|moved) to work at %WORK_PLACE% shortly after returning from %TRAVEL_HISTORY%"
+  - "Upon returning from %TRAVEL_HISTORY%, {SUBJECT_PRONOUN} took a job at %WORK_PLACE% and found {OBJECT_PRONOUN} to be a rewarding experience"
+
+# online identifiers
+# includes:
+# - usernames
+# online identifiers:
+  - "{SUBJECT_PRONOUN} (owns|has|created|registered) an account with the username %USERNAMES%"
+  - "{SUBJECT_PRONOUN} (registered|signed up for|created|has) the username %USERNAMES%"
+  - "{SUBJECT_PRONOUN} (created|registered) an account with the username %USERNAMES%"
+  - "{POSSESSIVE_PRONOUN} username is %USERNAMES%, and {SUBJECT_PRONOUN} (uses|operates) {OBJECT_PRONOUN} for many services"
+  - "The username %USERNAMES% belongs to {SUBJECT_PRONOUN}, who (created|registered|signed up for) it"
+  - "{SUBJECT_PRONOUN} (uses|has|operates) an account with the username %USERNAMES%"
+  - "{SUBJECT_PRONOUN} (owns|created) the account with the username %USERNAMES%, and {SUBJECT_PRONOUN} (often uses|frequently logs into) {OBJECT_PRONOUN}"
+  - "{SUBJECT_PRONOUN} (has|uses|registered) the username %USERNAMES% and uses {OBJECT_PRONOUN} for {POSSESSIVE_PRONOUN} (personal|professional) purposes"
+  - "{POSSESSIVE_PRONOUN} username is %USERNAMES%, and {SUBJECT_PRONOUN} uses {OBJECT_PRONOUN} for various platforms"
+  - "{SUBJECT_PRONOUN} (registered|created|signed up for) the username %USERNAMES% and (logs in|accesses) {OBJECT_PRONOUN} often"
+  - "{SUBJECT_PRONOUN} is known online by the username %USERNAMES%, which {SUBJECT_PRONOUN} created (some time ago|recently)"
+  - "{POSSESSIVE_PRONOUN} registered username is %USERNAMES%, and {SUBJECT_PRONOUN} (uses|manages) {OBJECT_PRONOUN} for social media platforms"
+  - "The username %USERNAMES% is (used|owned) by {SUBJECT_PRONOUN}, who created {OBJECT_PRONOUN} for {POSSESSIVE_PRONOUN} personal account"
+  - "{SUBJECT_PRONOUN} (created|registered) the username %USERNAMES% and has been using {OBJECT_PRONOUN} for (social media|business purposes)"
+  - "{POSSESSIVE_PRONOUN} username, %USERNAMES%, is (known across|used in) various platforms by {SUBJECT_PRONOUN}"
+  - "{SUBJECT_PRONOUN} created the username %USERNAMES%, which {SUBJECT_PRONOUN} (uses|manages) for {POSSESSIVE_PRONOUN} (online presence|profile)"
+  - "{SUBJECT_PRONOUN} (signed up for|registered) the username %USERNAMES% and uses {OBJECT_PRONOUN} to access multiple accounts"
+  - "{SUBJECT_PRONOUN} owns the username %USERNAMES%, and {POSSESSIVE_PRONOUN} (friends|colleagues) recognize {OBJECT_PRONOUN} online"
+
+
+
+# physiological data
+# includes:
+# - blood type
+# - illness symptoms
+# - medical diagnosis
+# physiological data:
+  - "{SUBJECT_PRONOUN} (suffers from|has|is experiencing|used to have) %ILLNESS_SYMPTOMS% and {SUBJECT_PRONOUN} (has a blood type|is classified with blood type|{POSSESSIVE_PRONOUN} blood type is) %BLOOD_TYPE%"
+  - "{SUBJECT_PRONOUN} (was diagnosed with|has been diagnosed with|is suffering from) %MEDICAL_DIAGNOSIS%, and {SUBJECT_PRONOUN} has a blood type %BLOOD_TYPE%"
+  - "{SUBJECT_PRONOUN}, with a blood type of %BLOOD_TYPE%, (is being treated for|has been treated for|was diagnosed with) %MEDICAL_DIAGNOSIS%"
+  - "{POSSESSIVE_PRONOUN} blood type is %BLOOD_TYPE%, and {SUBJECT_PRONOUN} (suffers from|is experiencing|has been diagnosed with) %ILLNESS_SYMPTOMS%"
+  - "{SUBJECT_PRONOUN} (is suffering from|has been diagnosed with|was treated for) %ILLNESS_SYMPTOMS%, and {POSSESSIVE_PRONOUN} blood type is %BLOOD_TYPE%"
+  - "{SUBJECT_PRONOUN} (was diagnosed|was found to have) %MEDICAL_DIAGNOSIS%, and {SUBJECT_PRONOUN} (has|carries) a blood type %BLOOD_TYPE%"
+  - "{SUBJECT_PRONOUN} (suffers from|has been diagnosed with) %ILLNESS_SYMPTOMS% and {POSSESSIVE_PRONOUN} blood type is %BLOOD_TYPE%"
+  - "{SUBJECT_PRONOUN}, who has a blood type of %BLOOD_TYPE%, (was diagnosed with|suffers from) %MEDICAL_DIAGNOSIS%"
+  - "After {SUBJECT_PRONOUN} (was diagnosed with|started experiencing) %ILLNESS_SYMPTOMS%, {POSSESSIVE_PRONOUN} blood type was classified as %BLOOD_TYPE%"
+  - "{SUBJECT_PRONOUN} (has been diagnosed with|suffers from|is experiencing|is dealing with) %ILLNESS_SYMPTOMS%"
+  - "{SUBJECT_PRONOUN} (was diagnosed with|has been treated for|is receiving treatment for) %MEDICAL_DIAGNOSIS%"
+  - "{SUBJECT_PRONOUN} has been (dealing with|managing) %ILLNESS_SYMPTOMS% for (years|some time)"
+  - "{SUBJECT_PRONOUN} (is currently being treated for|was diagnosed with) %MEDICAL_DIAGNOSIS%"
+  - "{SUBJECT_PRONOUN} (is suffering from|was recently diagnosed with|has developed) %ILLNESS_SYMPTOMS%"
+  - "Doctors confirmed that {SUBJECT_PRONOUN} (has|is suffering from) %MEDICAL_DIAGNOSIS%"
+  - "Due to %MEDICAL_DIAGNOSIS%, {SUBJECT_PRONOUN} (requires treatment|has been receiving care)"
+  - "{SUBJECT_PRONOUN} (has a long history of|is under treatment for) %ILLNESS_SYMPTOMS%"
+  - "{SUBJECT_PRONOUN} was diagnosed with %MEDICAL_DIAGNOSIS% and has been managing {OBJECT_PRONOUN} symptoms for years"
+  - "{POSSESSIVE_PRONOUN} symptoms of %ILLNESS_SYMPTOMS% have been difficult to manage, but {SUBJECT_PRONOUN} continues treatment"
+  - "Doctors told {OBJECT_PRONOUN} that {SUBJECT_PRONOUN} suffers from %ILLNESS_SYMPTOMS% and {POSSESSIVE_PRONOUN} blood type is %BLOOD_TYPE%"
+  - "{SUBJECT_PRONOUN} (suffers from|has) %ILLNESS_SYMPTOMS%, and {POSSESSIVE_PRONOUN} doctor classified {POSSESSIVE_PRONOUN} blood type as %BLOOD_TYPE%"
+  - "{SUBJECT_PRONOUN} (was diagnosed with|is experiencing) %MEDICAL_DIAGNOSIS%, and {POSSESSIVE_PRONOUN} blood type is %BLOOD_TYPE%"
+  - "{SUBJECT_PRONOUN} has been managing {POSSESSIVE_PRONOUN} %ILLNESS_SYMPTOMS% symptoms, and {SUBJECT_PRONOUN} blood type is %BLOOD_TYPE%"
+  - "{POSSESSIVE_PRONOUN} symptoms of %ILLNESS_SYMPTOMS% are being treated, and {SUBJECT_PRONOUN} is classified with a blood type of %BLOOD_TYPE%"
+  - "Doctors identified {POSSESSIVE_PRONOUN} blood type as %BLOOD_TYPE%, and {SUBJECT_PRONOUN} (is managing|is suffering from) %ILLNESS_SYMPTOMS%"
+  - "{SUBJECT_PRONOUN} (has been diagnosed with|is dealing with) %MEDICAL_DIAGNOSIS%, and {POSSESSIVE_PRONOUN} blood type is %BLOOD_TYPE%"
+  - "{SUBJECT_PRONOUN} (was told|found out) that {OBJECT_PRONOUN} has a blood type of %BLOOD_TYPE% and (suffers from|is diagnosed with) %ILLNESS_SYMPTOMS%"
+  - "After learning {POSSESSIVE_PRONOUN} blood type is %BLOOD_TYPE%, {SUBJECT_PRONOUN} started managing {OBJECT_PRONOUN} symptoms of %ILLNESS_SYMPTOMS%"
+  - "Managing {POSSESSIVE_PRONOUN} %ILLNESS_SYMPTOMS% has been difficult, but {SUBJECT_PRONOUN} continues to treat {OBJECT_PRONOUN}, with a blood type of %BLOOD_TYPE%"
+  - "The doctors confirmed {POSSESSIVE_PRONOUN} diagnosis of %MEDICAL_DIAGNOSIS% and classified {POSSESSIVE_PRONOUN} blood type as %BLOOD_TYPE%"
+  - "Since finding out {SUBJECT_PRONOUN} has %ILLNESS_SYMPTOMS%, {SUBJECT_PRONOUN} has been managing {OBJECT_PRONOUN} alongside {POSSESSIVE_PRONOUN} blood type of %BLOOD_TYPE%"
+  - "{SUBJECT_PRONOUN} has %ILLNESS_SYMPTOMS% and, given {POSSESSIVE_PRONOUN} blood type of %BLOOD_TYPE%, {SUBJECT_PRONOUN} has been under regular treatment"
+  - "{POSSESSIVE_PRONOUN} medical record shows a diagnosis of %MEDICAL_DIAGNOSIS% and a blood type of %BLOOD_TYPE%, and {SUBJECT_PRONOUN} manages {OBJECT_PRONOUN} carefully"
+  - "After {SUBJECT_PRONOUN} learned {POSSESSIVE_PRONOUN} blood type is %BLOOD_TYPE%, {SUBJECT_PRONOUN} began treatment for {OBJECT_PRONOUN} %ILLNESS_SYMPTOMS%"
+  - "Doctors confirmed that {SUBJECT_PRONOUN} (has been diagnosed with|is suffering from) %MEDICAL_DIAGNOSIS% and identified {POSSESSIVE_PRONOUN} blood type as %BLOOD_TYPE%"
+
+
+# social data
+# includes:
+# - religious beliefs: %RELIGIOUS_BELIEFS% (religions)
+# - political opinions: %POLITICAL_OPINIONS% (party names, ideologies)
+# - employment history: %EMPLOYMENT_HISTORY% (companies, job titles)
+# - education background: %EDUCATION_BACKGROUND% (universities, schools)
+# - financial information: %STOCKS%, %INCOME%, %LOAN%
+# - cultural affiliation: %ETHNIC% (ethnic)
+# social data:
+  - "{SUBJECT_PRONOUN} (believes in|used to believe in|practices|follows) %RELIGIOUS_BELIEFS%"
+  - "{SUBJECT_PRONOUN} (holds|expresses) %POLITICAL_OPINIONS% (views|beliefs|stances)"
+  - "{SUBJECT_PRONOUN} (is a follower of|believes in|adheres to) %RELIGIOUS_BELIEFS%, while {SUBJECT_PRONOUN} (supports|opposes) %POLITICAL_OPINIONS%"
+  - "{SUBJECT_PRONOUN} (used to believe|now believes) in %RELIGIOUS_BELIEFS%, and {SUBJECT_PRONOUN} (supports|advocates for) %POLITICAL_OPINIONS%"
+  - "{POSSESSIVE_PRONOUN} religious views are based on %RELIGIOUS_BELIEFS%, and {SUBJECT_PRONOUN} (stands for|supports) %POLITICAL_OPINIONS%"
+  - "{SUBJECT_PRONOUN} (follows|adheres to|believes in) %RELIGIOUS_BELIEFS% and holds (strong|firm) %POLITICAL_OPINIONS% views"
+  - "{SUBJECT_PRONOUN} (expresses|advocates for|supports) %POLITICAL_OPINIONS%, and {POSSESSIVE_PRONOUN} religious belief is based on %RELIGIOUS_BELIEFS%"
+  - "{SUBJECT_PRONOUN} (has always believed in|converted to|started following) %RELIGIOUS_BELIEFS% and (follows|supports) %POLITICAL_OPINIONS%"
+  - "{SUBJECT_PRONOUN} identifies with %RELIGIOUS_BELIEFS% and (has a strong stance on|is vocal about) %POLITICAL_OPINIONS%"
+  - "{SUBJECT_PRONOUN} (advocates for|stands for|is passionate about) %POLITICAL_OPINIONS% and (is a follower of|believes in) %RELIGIOUS_BELIEFS%"
+  - "{POSSESSIVE_PRONOUN} political opinions revolve around %POLITICAL_OPINIONS%, while {SUBJECT_PRONOUN} (is a follower of|adheres to) %RELIGIOUS_BELIEFS%"
+  - "{SUBJECT_PRONOUN} (has supported|now advocates for|opposes) %POLITICAL_OPINIONS% while (practicing|following) %RELIGIOUS_BELIEFS%"
+  - "In terms of religious beliefs, {SUBJECT_PRONOUN} (follows|believes in|practices) %RELIGIOUS_BELIEFS%, and {POSSESSIVE_PRONOUN} political views align with %POLITICAL_OPINIONS%"
+  - "{SUBJECT_PRONOUN} has been vocal about {POSSESSIVE_PRONOUN} %POLITICAL_OPINIONS% views, while continuing to follow {POSSESSIVE_PRONOUN} %RELIGIOUS_BELIEFS%"
+  - "{SUBJECT_PRONOUN} (advocates for|is passionate about) %POLITICAL_OPINIONS%, but {SUBJECT_PRONOUN} also (believes in|follows) %RELIGIOUS_BELIEFS%"
+  - "The company hired {OBJECT_PRONOUN} to work at %EMPLOYMENT_HISTORY% after completing a degree in %EDUCATION_BACKGROUND%"
+  - "{OBJECT_PRONOUN} was employed at %EMPLOYMENT_HISTORY% after earning a degree in %EDUCATION_BACKGROUND%"
+  - "{POSSESSIVE_PRONOUN} previous job at %EMPLOYMENT_HISTORY% was secured thanks to {POSSESSIVE_PRONOUN} education in %EDUCATION_BACKGROUND%"
+  - "After completing studies in %EDUCATION_BACKGROUND%, {OBJECT_PRONOUN} joined %EMPLOYMENT_HISTORY% as a full-time employee"
+  - "The degree in %EDUCATION_BACKGROUND% helped {OBJECT_PRONOUN} secure a role at %EMPLOYMENT_HISTORY%"
+  - "Having studied at %EDUCATION_BACKGROUND%, {OBJECT_PRONOUN} found employment at %EMPLOYMENT_HISTORY%"
+  - "The background in %EDUCATION_BACKGROUND% made it possible for {OBJECT_PRONOUN} to work at %EMPLOYMENT_HISTORY%"
+  - "Working at %EMPLOYMENT_HISTORY% was made possible by {POSSESSIVE_PRONOUN} degree in %EDUCATION_BACKGROUND%"
+  - "{POSSESSIVE_PRONOUN} education in %EDUCATION_BACKGROUND% led {OBJECT_PRONOUN} to a career at %EMPLOYMENT_HISTORY%"
+  - "{OBJECT_PRONOUN} gained experience at %EMPLOYMENT_HISTORY% after completing studies in %EDUCATION_BACKGROUND%"
+  - "{POSSESSIVE_PRONOUN} political stance is based on %POLITICAL_OPINIONS%, and {SUBJECT_PRONOUN} (believes in|adheres to) %RELIGIOUS_BELIEFS%"
+  - "After studying at %EDUCATION_BACKGROUND%, {SUBJECT_PRONOUN} (took up a job|was hired as) %EMPLOYMENT_HISTORY%"
+  - "{SUBJECT_PRONOUN} (graduated from|attended) %EDUCATION_BACKGROUND% and later worked at %EMPLOYMENT_HISTORY%"
+  - "{POSSESSIVE_PRONOUN} professional background includes working as %EMPLOYMENT_HISTORY% and earning a degree in %EDUCATION_BACKGROUND%"
+  - "With {POSSESSIVE_PRONOUN} degree in %EDUCATION_BACKGROUND%, {SUBJECT_PRONOUN} (was hired by|found employment at) %EMPLOYMENT_HISTORY%"
+  - "{SUBJECT_PRONOUN} (studied|earned a degree in) %EDUCATION_BACKGROUND% before working at %EMPLOYMENT_HISTORY%"
+  - "Before {SUBJECT_PRONOUN} (started working at|was hired by) %EMPLOYMENT_HISTORY%, {SUBJECT_PRONOUN} earned {POSSESSIVE_PRONOUN} degree in %EDUCATION_BACKGROUND%"
+  - "{SUBJECT_PRONOUN}, with a background in %EDUCATION_BACKGROUND%, (now works at|is employed by) %EMPLOYMENT_HISTORY%"
+  - "{POSSESSIVE_PRONOUN} educational background in %EDUCATION_BACKGROUND% helped {OBJECT_PRONOUN} secure a job at %EMPLOYMENT_HISTORY%"
+  - "After completing {POSSESSIVE_PRONOUN} studies in %EDUCATION_BACKGROUND%, {SUBJECT_PRONOUN} (took a job at|was hired at) %EMPLOYMENT_HISTORY%"
+  - "While studying at %EDUCATION_BACKGROUND%, {SUBJECT_PRONOUN} (started working as|gained experience as) %EMPLOYMENT_HISTORY%"
+  - "{SUBJECT_PRONOUN} (earned a degree|graduated) in %EDUCATION_BACKGROUND%, and {SUBJECT_PRONOUN} now (works at|holds a position at) %EMPLOYMENT_HISTORY%"
+  - "{POSSESSIVE_PRONOUN} work at %EMPLOYMENT_HISTORY% began after {SUBJECT_PRONOUN} completed {POSSESSIVE_PRONOUN} studies at %EDUCATION_BACKGROUND%"
+  - "{SUBJECT_PRONOUN} (used to work at|was employed by) %EMPLOYMENT_HISTORY% and has a background in %EDUCATION_BACKGROUND%"
+  - "{POSSESSIVE_PRONOUN} employment at %EMPLOYMENT_HISTORY% was made possible by {POSSESSIVE_PRONOUN} education in %EDUCATION_BACKGROUND%"
+  - "{SUBJECT_PRONOUN} (used to work as|was employed as) %EMPLOYMENT_HISTORY% and holds a degree in %EDUCATION_BACKGROUND%"
+  - "{POSSESSIVE_PRONOUN} degree in %EDUCATION_BACKGROUND% helped {OBJECT_PRONOUN} find work at %EMPLOYMENT_HISTORY%"
+  - "Before working at %EMPLOYMENT_HISTORY%, {SUBJECT_PRONOUN} completed {POSSESSIVE_PRONOUN} education in %EDUCATION_BACKGROUND%"
+  - "{SUBJECT_PRONOUN} (earned|received|got) %INCOME% this month"
+  - "{SUBJECT_PRONOUN} (has|owns) stocks in %STOCKS%"
+  - "{SUBJECT_PRONOUN} (took out|has) a loan of %LOAN%"
+  - "{SUBJECT_PRONOUN} (recently received|has been given) a loan of %LOAN%"
+  - "After earning %INCOME% this year, {SUBJECT_PRONOUN} (decided to invest|started investing) in %STOCKS%"
+  - "{SUBJECT_PRONOUN} (got|took out) a loan of %LOAN% to support {POSSESSIVE_PRONOUN} investments in %STOCKS%"
+  - "The income of %INCOME% allowed {OBJECT_PRONOUN} to make investments in %STOCKS%"
+  - "With a loan of %LOAN%, {SUBJECT_PRONOUN} (managed to purchase|was able to buy stocks in) %STOCKS%"
+  - "{POSSESSIVE_PRONOUN} monthly income of %INCOME% (helped {OBJECT_PRONOUN} invest|supported {POSSESSIVE_PRONOUN} investment) in %STOCKS%"
+  - "By earning %INCOME%, {SUBJECT_PRONOUN} (was able to|managed to) invest in %STOCKS%"
+  - "With %LOAN% in loans, {SUBJECT_PRONOUN} (invested|purchased) shares in %STOCKS%"
+  - "{POSSESSIVE_PRONOUN} income of %INCOME% (allowed {OBJECT_PRONOUN} to buy|helped {OBJECT_PRONOUN} invest in) stocks in %STOCKS%"
+  - "With an income of %INCOME%, {SUBJECT_PRONOUN} (was able to secure|managed to take out) a loan of %LOAN% to invest"
+  - "{POSSESSIVE_PRONOUN} financial situation, including %INCOME% in income and a loan of %LOAN%"
+  - "With both a loan of %LOAN% and an income of %INCOME%, {SUBJECT_PRONOUN} (started investing|bought stocks) in %STOCKS%"
+  - "The loan of %LOAN% was necessary for {POSSESSIVE_PRONOUN} investments in %STOCKS%, especially after earning %INCOME%"
+  - "Having secured a loan of %LOAN%, {SUBJECT_PRONOUN} (used {POSSESSIVE_PRONOUN} income of|relied on {POSSESSIVE_PRONOUN} income of) %INCOME% to invest in %STOCKS%"
+  - "By investing in %STOCKS%, {SUBJECT_PRONOUN} (relied on {POSSESSIVE_PRONOUN} income of|used {POSSESSIVE_PRONOUN} loan of) %LOAN%"
+  - "With an income of %INCOME% and a loan of %LOAN%, {OBJECT_PRONOUN} was able to expand {POSSESSIVE_PRONOUN} stock portfolio, including %STOCKS%"
+  - "{SUBJECT_PRONOUN} (loves|is proud of|cherishes) {POSSESSIVE_PRONOUN} %CULTURAL_AFFILIATION% identity"
+  - "{SUBJECT_PRONOUN} (identifies with|feels a deep connection to|is connected to) {POSSESSIVE_PRONOUN} %CULTURAL_AFFILIATION% heritage"
+  - "{SUBJECT_PRONOUN} (is proud to belong to|values|appreciates) {POSSESSIVE_PRONOUN} %CULTURAL_AFFILIATION% community"
+  - "{SUBJECT_PRONOUN} (has strong ties to|is deeply connected to) {POSSESSIVE_PRONOUN} %CULTURAL_AFFILIATION% roots"
+  - "{POSSESSIVE_PRONOUN} %CULTURAL_AFFILIATION% identity (means a lot to {OBJECT_PRONOUN}|is a significant part of {POSSESSIVE_PRONOUN} life)"
+  - "Belonging to {POSSESSIVE_PRONOUN} %CULTURAL_AFFILIATION% community is something {SUBJECT_PRONOUN} (is proud of|values highly)"
+  - "{SUBJECT_PRONOUN} (feels a strong connection to|is committed to) {POSSESSIVE_PRONOUN} %CULTURAL_AFFILIATION% background"
+  - "{POSSESSIVE_PRONOUN} cultural background is rooted in {POSSESSIVE_PRONOUN} %CULTURAL_AFFILIATION% heritage, which {SUBJECT_PRONOUN} (respects|honors)"
+  - "Being part of {POSSESSIVE_PRONOUN} %CULTURAL_AFFILIATION% community is something {SUBJECT_PRONOUN} (takes pride in|feels deeply about)"
+  - "{SUBJECT_PRONOUN} (is proud of|takes pride in) {POSSESSIVE_PRONOUN} %CULTURAL_AFFILIATION% ancestry and the traditions it represents"
+  - "{POSSESSIVE_PRONOUN} %CULTURAL_AFFILIATION% background (has always been|continues to be) an important part of {POSSESSIVE_PRONOUN} life"
+  - "{SUBJECT_PRONOUN} (embraces|honors|celebrates) {POSSESSIVE_PRONOUN} %CULTURAL_AFFILIATION% culture and its history"
+  - "{SUBJECT_PRONOUN} (is connected to|cherishes) {POSSESSIVE_PRONOUN} %CULTURAL_AFFILIATION% heritage, which {SUBJECT_PRONOUN} (feels defines|believes defines) {OBJECT_PRONOUN}"
+  - "{SUBJECT_PRONOUN} (believes|knows) {POSSESSIVE_PRONOUN} %CULTURAL_AFFILIATION% heritage plays a significant role in shaping {POSSESSIVE_PRONOUN} identity"
+  - "{POSSESSIVE_PRONOUN} %CULTURAL_AFFILIATION% identity is something {SUBJECT_PRONOUN} (holds dear|celebrates|respects deeply)"
+  - "{SUBJECT_PRONOUN} (has always felt|has come to realize) that {POSSESSIVE_PRONOUN} %CULTURAL_AFFILIATION% heritage shapes {OBJECT_PRONOUN} as a person"
+  - "{POSSESSIVE_PRONOUN} connection to {POSSESSIVE_PRONOUN} %CULTURAL_AFFILIATION% roots (is important|has always been important) to {OBJECT_PRONOUN}"
+  - "{POSSESSIVE_PRONOUN} %CULTURAL_AFFILIATION% identity plays a significant role in {POSSESSIVE_PRONOUN} worldview, something {SUBJECT_PRONOUN} (respects|believes in)"
+  - "{SUBJECT_PRONOUN} (considers|views) {POSSESSIVE_PRONOUN} %CULTURAL_AFFILIATION% heritage as a cornerstone of {POSSESSIVE_PRONOUN} identity"
+  - "In {POSSESSIVE_PRONOUN} life, {POSSESSIVE_PRONOUN} %CULTURAL_AFFILIATION% identity (is deeply rooted in|is centered around) {POSSESSIVE_PRONOUN} cultural traditions"
+  - "Being a part of {POSSESSIVE_PRONOUN} %CULTURAL_AFFILIATION% culture is something {SUBJECT_PRONOUN} (has always celebrated|continues to value)"
+  - "{POSSESSIVE_PRONOUN} %CULTURAL_AFFILIATION% heritage has always been a source of pride for {OBJECT_PRONOUN}, and {SUBJECT_PRONOUN} (continues to honor|loves to honor) it"
