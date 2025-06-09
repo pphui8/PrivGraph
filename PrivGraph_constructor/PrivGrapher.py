@@ -81,9 +81,26 @@ PII_DTS = {
     "cultural_affiliation": .4,  # wrong spell in the NLP model, remember to fix it.
 }
 
-def merge_graphs(graphs, target_text, target_graph):
+def merge_graphs(text, graph1, graph2):
+    """
+    Merge graph2 into graph1 and remove graph2 from text.
+    Nodes and edges from graph2 are added to graph1 if not present.
+    """
+    for node, attrs in graph2.nodes(data=True):
+        if not graph1.has_node(node):
+            graph1.add_node(node, **attrs)
+        else:
+            # Optionally, update attributes (e.g., count)
+            if 'count' in attrs and 'count' in graph1.nodes[node]:
+                graph1.nodes[node]['count'] += attrs['count']
 
-    return
+    for u, v, attrs in graph2.edges(data=True):
+        if not graph1.has_edge(u, v):
+            graph1.add_edge(u, v, **attrs)
+
+    # Remove graph2 from text
+    if graph2 in text:
+        text.remove(graph2)
 
 def enrich_graph_with_ontology(individual_graph, ontology_graph):
     # Create a new graph for the enriched result
